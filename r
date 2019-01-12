@@ -17,3 +17,10 @@ coef(mt.model)[2]
 coef(mt.model)[1]
 
 # b or intercept
+
+model <- lm(mtcars$mpg ~ mtcars$disp)
+coef(model)
+
+#lm is linear model, ~ is like a function operator
+
+#it'll come out looking like the y = mx + b use intercept as b and 2nd number as m
