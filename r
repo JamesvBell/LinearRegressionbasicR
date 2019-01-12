@@ -24,3 +24,9 @@ coef(model)
 #lm is linear model, ~ is like a function operator
 
 #it'll come out looking like the y = mx + b use intercept as b and 2nd number as m
+
+#call the coefficient directly
+
+coef(model)[2] * insertvalue + cof(model)[1]
+
+#you have to actually put whatever value instead of insertvalue for it to work. 
